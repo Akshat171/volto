@@ -15,7 +15,7 @@ export function listActions(url) {
   return {
     type: LIST_ACTIONS,
     request: {
-      op: 'get',
+      op: 'get', 
       path: `${url}/@actions`,
     },
   };
